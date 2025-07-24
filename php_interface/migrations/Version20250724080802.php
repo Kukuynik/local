@@ -54,7 +54,7 @@ class Version20250724080802 extends Version
   'ACTIVE' => 'Y',
   'SORT' => '500',
   'LIST_PAGE_URL' => '#SITE_DIR#/news/index.php?ID=#IBLOCK_ID#',
-  'DETAIL_PAGE_URL' => '#SITE_DIR#/news/detail.php?ID=#ELEMENT_ID#',
+  'DETAIL_PAGE_URL' => '#SITE_DIR#/news/detail.php?ID=#ELEMENT_CODE#',
   'SECTION_PAGE_URL' => '#SITE_DIR#/news/list.php?SECTION_ID=#SECTION_ID#',
   'CANONICAL_PAGE_URL' => '',
   'PICTURE' => NULL,
