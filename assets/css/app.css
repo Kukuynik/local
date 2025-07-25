@@ -9684,7 +9684,8 @@ h3+.contacts__row {
   flex-direction:column;
   gap:0;
   position:relative;
-  transition:border-color .1s linear
+  transition:border-color .1s linear;
+  background-color: #e9e8e8;
 }
 .news:hover .news__title {
   color:#0050b2
@@ -18882,4 +18883,7 @@ h3+.contacts__row {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     max-width: 1100px;
     margin: 0 auto;
+}
+.news-page{
+  background-color: #f2f0ef;
 }
